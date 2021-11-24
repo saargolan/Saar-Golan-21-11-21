@@ -19,7 +19,7 @@ const App = () => {
         <div className="App">
           <Header/>
           <Switch>
-            <Route path = "/favorite-locations" component = {() => <FavoriteLocationsPage />}/>
+            <Route path = "/favorite-locations" component = {FavoriteLocationsPage}/>
             <Route path = "/:location?" component = {WeatherPage}/>
           </Switch>
         </div>
