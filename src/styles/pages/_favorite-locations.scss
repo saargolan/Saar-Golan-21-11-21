@@ -1,0 +1,39 @@
+.favorite-locations-page {
+    .favorite-locations-header {
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        .favorite-locations-img {
+            width: 100vw;
+            height: 50vh;
+            object-fit: cover;
+        }
+
+        .favorite-location-header {
+            position: absolute;
+            color: $white;
+            font-size: 4rem;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.57);
+        }
+
+    }
+
+    .add-location-preview {
+        width: 50%;
+        text-align: center;
+        //color: $color1;
+        //background-color: $white;
+        //padding: 10px;
+
+
+        background-color: $buttonYellow;
+        color: $white;
+        padding: 8px  ;
+        border-radius: 5px;
+
+        &:active {
+            border: none;
+            color: $buttonYellow;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.header-cmp {
+    height: 80px;
+    width: 100%;
+    background-color: $navbarGreen;
+    align-items: center;
+    justify-content: space-between;
+
+    .right-div {
+        align-items: center;
+        .logo-img {
+            height: 4em;
+        }
+    
+        .header-title {
+            @include main-title;
+                
+            @media(max-width: $size1) {
+                font-size: 1.5rem;
+            }
+        }
+    } 
+
+    .header-navbar {
+        align-items: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        max-width: 550px;
+        padding-right: 15%;
+        .nav-link {
+            @include header-link;
+            &.active {
+                padding: 10px;
+                background-color: $buttonYellow;
+                border-radius: 3px;
+            
+            }
+        }
+        
+
+        
+        justify-content: space-evenly;
+    }
+
+    .left-div {
+        padding-right: 1%;
+
+        .temp-switch-btn {
+            background-color: $buttonYellow;
+            color: $white;
+            padding: 10px 15px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-family: $font2;
+
+
+            &:active {
+                border: none
+            }
+        }
+    }
+
+}

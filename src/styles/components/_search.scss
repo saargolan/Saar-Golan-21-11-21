@@ -1,0 +1,47 @@
+.search-cmp {
+    flex-direction: column;
+    .location-filter-cmp {
+        background-color: $searchGrey;
+        padding: 10px;
+        justify-content: space-evenly;
+        form {
+            width: 30vw;
+
+            input {
+                padding: 10px;
+                border-radius: 5px;
+                width: 70%;
+                border: none;
+                margin-right: 10px;
+            }
+        }
+      .search-btn {
+        background-color: $buttonYellow;
+        color: $white;
+        padding: 8px ;
+        border-radius: 5px;
+
+        &:active {
+          border: none
+        }
+      }
+    }
+    .search-suggestion-cmp{
+       .suggestions-list {
+            text-align: center;
+
+           &:first-child {
+               border-top: 1px solid $searchGrey;
+           }
+
+           & > * {
+            padding: 10px;
+            margin: 0;
+            border-bottom: 1px solid $navbarGreen;
+            background-color: $searchGrey;
+           }
+       } 
+    }
+
+
+}

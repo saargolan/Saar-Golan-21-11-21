@@ -1,0 +1,32 @@
+.favorite-location-list-cmp {
+    padding: 8px;
+    ul {
+
+        flex-direction: row;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .location-preview-cmp {
+            background-color: $navbarGreen;
+            width: 25vw;
+            margin-top: 7px;
+            color: $white;
+            min-height: 100px;
+            padding: 10px;
+            border-radius: 10px 60px 10px;
+
+            .preview-title {
+                font-family: $font2;
+                margin-bottom: 5px;
+            }
+
+            .preview-icon{
+                height: 50px;
+            }
+            .plus {
+                font-size: 3rem;
+            }
+        }
+    }
+}

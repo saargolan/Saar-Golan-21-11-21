@@ -1,0 +1,19 @@
+// SETUP
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+
+// BASICS
+@import "basics/base.scss";
+@import "basics/helpers.scss";
+@import "basics/typography.scss";
+
+// PAGES
+@import "pages/favorite-locations.scss"; 
+
+//COMPONENTS
+@import "components/header.scss";
+@import "components/search.scss";
+@import "components/weather-details";
+@import "components/weather-list";
+@import "components/location-list";

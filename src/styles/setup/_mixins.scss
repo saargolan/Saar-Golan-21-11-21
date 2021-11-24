@@ -1,0 +1,13 @@
+@mixin main-title {
+    font-family: $font3;
+    color: $white;
+    font-size: 3rem;
+
+}
+  
+
+@mixin header-link {
+    color: $white;
+    font-family: $font2;
+
+}
